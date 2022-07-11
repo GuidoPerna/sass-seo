@@ -1,0 +1,27 @@
+$redes: (
+    facebook: rgb(38, 109, 240),
+    twitter: rgb(0, 132, 255),
+    instagram: white,
+    spotify: rgb(7, 167, 7),
+    youtube: rgb(204, 9, 9)
+);
+
+.botonFacebook{
+    color: map-get($redes , facebook );
+}
+
+.botonTwitter{
+    color: map-get($redes , twitter );
+}
+
+.botonInstagram{
+    color: map-get($redes , instagram );
+}
+
+.botonSpotify{
+    color: map-get($redes , spotify );
+}
+
+.botonYoutube{
+    color: map-get($redes , youtube );
+}

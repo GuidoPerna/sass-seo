@@ -1,0 +1,25 @@
+.boton {
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    border: 10px white;
+
+    &:hover{
+        background-color: black;
+        color: red;
+
+    }
+    
+}
+
+.botonborrar{
+    @extend .boton;
+    background-color: black;
+    color: red;
+
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+}

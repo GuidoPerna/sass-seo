@@ -1,0 +1,21 @@
+.contenedor-cards{
+    margin: 10px 100px 0px 100px;
+    img{
+        width: 175px;
+        height: 175px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .contenedor-cards img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 440px){
+    .contenedor-cards img{
+        width: 100px;
+        height: 100px;
+    }
+}

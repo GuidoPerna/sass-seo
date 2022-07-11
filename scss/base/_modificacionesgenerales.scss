@@ -1,0 +1,30 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    background-image: url(https://rockandblog.net/wp-content/uploads/2022/01/maxresdefault-17.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+}
+
+
+@mixin fontSize($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+}
+
+.titulos{
+    @include fontSize(3rem, 500)
+}
+
+.subtitulos{
+    @include fontSize(2rem, 300)
+}
+
+.textos{
+    @include fontSize(1rem, 100)
+}
